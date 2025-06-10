@@ -2,16 +2,17 @@
 
 This repository contains data and scripts for Step 2 of my Capstone Project in the Machine Learning Engineering & AI Bootcamp.
 
-## 📌 Project Overview
+##  Project Overview
 
 **Capstone Theme:** Predicting QA Failures from Test Log Data  
 **Main Dataset:** [Bosch Production Line Performance – Kaggle](https://www.kaggle.com/competitions/bosch-production-line-performance/data)
 
-In real-world manufacturing or embedded QA workflows (like aerospace and defense software testing), failure patterns can often be predicted from early-stage logs. This project aims to explore machine learning methods to model those patterns using real-world industrial data.
+In real-world manufacturing or embedded QA workflows (like aerospace and defense software testing), failure patterns can often be predicted from early-stage logs. 
+This project aims to explore machine learning methods to model those patterns using real-world industrial data.
 
 ---
 
-## 📁 Contents
+## Contents
 
 ### `data/` folder includes:
 
@@ -24,7 +25,7 @@ In real-world manufacturing or embedded QA workflows (like aerospace and defense
 
 ---
 
-## 📥 Original Dataset Source
+## Original Dataset Source
 
 The full dataset (14GB+) is available from Kaggle at:  
 🔗 https://www.kaggle.com/competitions/bosch-production-line-performance/data
@@ -33,7 +34,7 @@ Due to size, only small samples are committed to this repository.
 
 ---
 
-## ⚙️ Script Usage
+##  Script Usage
 
 To regenerate the samples, run:
 
