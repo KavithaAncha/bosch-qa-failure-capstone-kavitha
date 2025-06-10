@@ -1,6 +1,6 @@
 # Bosch QA Failure Capstone – Sample Data & Extraction Script
 
-This repository contains data and scripts for Step 2 of my Capstone Project in the Machine Learning Engineering & AI Bootcamp.
+This repository contains data and scripts for Step 2 of my Capstone Project.
 
 ##  Project Overview
 
@@ -34,9 +34,9 @@ Due to size, only small samples are committed to this repository.
 
 ---
 
-##  Script Usage
+## 🔧 Script Usage
 
-To regenerate the samples, run:
+To generate the smaller sample datasets from the original Bosch files, run the following command from your project root:
 
 ```bash
-python data/Bosch\ dataset\ files.py
+python "data/Bosch dataset files.py"
