@@ -40,3 +40,15 @@ To generate the smaller sample datasets from the original Bosch files, run the f
 
 ```bash
 python "data/Bosch dataset files.py"
+
+## Step 5 – Data Wrangling & EDA
+
+📄 Notebook: [`Step5_DataWrangling_Bosch.ipynb`](step_5_wrangling/Step5_DataWrangling_Bosch.ipynb)
+
+This step focused on preparing the Bosch dataset for modeling:
+- Removed constant and high-missing-value features
+- Imputed missing values using median strategy
+- Created a 100K-row sampled subset to enable efficient model prototyping
+- (Optional) Performed exploratory data analysis (EDA) to identify top features correlated with QA failures
+
+The cleaned data will be used for training and evaluation in Step 6.
