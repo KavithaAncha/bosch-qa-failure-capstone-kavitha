@@ -50,5 +50,3 @@ This step focused on preparing the Bosch dataset for modeling:
 - Imputed missing values using median strategy
 - Created a 100K-row sampled subset to enable efficient model prototyping
 - (Optional) Performed exploratory data analysis (EDA) to identify top features correlated with QA failures
-
-The cleaned data will be used for training and evaluation in Step 6.
