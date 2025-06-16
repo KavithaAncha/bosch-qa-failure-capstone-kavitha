@@ -43,7 +43,7 @@ python "data/Bosch dataset files.py"
 
 ## Step 5 – Data Wrangling & EDA
 
-📄 Notebook: [`Step5_DataWrangling_Bosch.ipynb`](step_5_wrangling/Step5_DataWrangling_Bosch.ipynb)
+Notebook: [`Step5_DataWrangling_Bosch.ipynb`](step_5_wrangling/Step5_DataWrangling_Bosch.ipynb)
 
 This step focused on preparing the Bosch dataset for modeling:
 - Removed constant and high-missing-value features
