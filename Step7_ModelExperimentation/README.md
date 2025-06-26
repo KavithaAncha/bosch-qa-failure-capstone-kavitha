@@ -1,43 +1,55 @@
-# Step 7 – Model Experimentation
+# Bosch QA Failure Prediction – Step 7: Model Experimentation
 
-This notebook explores multiple classification models to predict QA failures using the Bosch dataset.
 
----
-
-## Models Tried
-- Logistic Regression
-- Random Forest
-- XGBoost
-- LightGBM
-- Ensemble (VotingClassifier)
+This specific notebook focuses on **model experimentation**, evaluating various machine learning techniques to handle a highly imbalanced classification problem.
 
 ---
 
-## Methodology
-- Preprocessed Bosch dataset used (`train_numeric` sample with `Response` as target)
-- Missing values handled using `SimpleImputer` (median)
-- Baseline models trained and evaluated using F1 Score and ROC AUC
-- XGBoost model tuned via GridSearchCV
-- Cross-validation performed (5-fold)
+## Notebook Purpose
+
+In this step, the objective was to:
+
+- Train and evaluate multiple models on the Bosch dataset
+- Explore strategies to deal with class imbalance
+- Diagnose overfitting through performance metrics and confusion matrices
+- Apply mentor feedback regarding model behavior and result interpretation
 
 ---
 
-## Final Model
-**Model**: Tuned XGBoost  
-**Performance**:
-- F1 Score: `...` *(fill in based on output)*
-- ROC AUC: `...`
-- CV F1 Score: `...`
-- Training time: ~ `...` seconds
+## Techniques Applied
+
+- Models: Logistic Regression, Random Forest, XGBoost, LightGBM
+- Imbalance handling: `class_weight='balanced'`, SMOTE
+- Evaluation: Accuracy, F1 Score, ROC AUC, Confusion Matrix
+- Improvements: GridSearchCV for tuning, Ensemble (VotingClassifier)
 
 ---
 
-## File Included
-- [`Step7_Bosch_ModelExperimentation.ipynb`](./Step7_Bosch_ModelExperimentation.ipynb)
+## Feedback Loop
 
-This file contains all code, markdown explanations, and evaluation outputs used in this step.
+This notebook includes an explicit response to mentor guidance on:
+- Overfitting diagnosis using confusion matrices
+- Revisiting evaluation metrics for minority class (Response = 1)
+- Planning for next-stage improvements
 
 ---
 
-## Status
-✔️ Completed as part of Capstone Step 7 submission.
+## What's Next
+
+Follow-up actions are proposed at the end of the notebook, including:
+
+- Cost-sensitive learning
+- Anomaly detection techniques
+- Undersampling strategies
+- Feature engineering and threshold tuning
+
+These will be explored in Step 8: **Scaling the Prototype**.
+
+---
+
+## Files
+
+```bash
+.
+├── Bosch_Step7_ModelExperimentation.ipynb
+├── README.md
